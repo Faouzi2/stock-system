@@ -1,5 +1,3 @@
-from dotenv import load_dotenv, dotenv_values
-import os
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
@@ -10,9 +8,12 @@ import csv
 from datetime import datetime
 import numpy as np
 from flask import Flask
-app = Flask(__name__)
+import os
+
+
+main = Flask(__name__)
 if __name__ == '__main__':
-    app.run()
+    main.run()
 
 
 
