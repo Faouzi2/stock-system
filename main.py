@@ -35,7 +35,7 @@ def connection():
     conn=pymysql.connect(
         host= "127.0.0.1",
         user= "root",
-        password= os.getenv("PASSWORD"),
+        password= "123456789",
         database= "myDB"
     )
     return conn
